@@ -1,7 +1,7 @@
 export const SliderData = [
    {
       image: './../images/SpaceCats.bmp',
-      description: 'социальная сеть, написаная на React-Redux c применением всех инструментов, для полноценной разработки',
+      description: 'Cоциальная сеть, написаная на React-Redux c применением всех инструментов для полноценной разработки',
       footer: 'SpaceCats',
       link: 'https://github.com/Ney924/Network_V2',
       key: 1

@@ -25,7 +25,6 @@ const Skills = ({ button = <></> }) => {
             bottomBorder
             style={{ marginBottom: '20px' }}
          />
-
          <div className='skills-page'>
             <div className='skills' >
                <div>

@@ -1,8 +1,7 @@
 import React from 'react';
 import { EuiPageTemplate, EuiPageHeader, EuiButton } from '@elastic/eui';
-
-import ImageSlider from './Slider'
 import { NavLink } from 'react-router-dom';
+import ImageSlider from './Slider'
 
 const Projects = ({ button = <></> }) => {
 

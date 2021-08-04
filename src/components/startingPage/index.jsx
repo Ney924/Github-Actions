@@ -6,8 +6,9 @@ import './style.css'
 const StartingPage = (props) => {
    return (
       <div className='page'>
-         <div className='text'>Привет!</div>
-         <div className='text'>Меня зовут Аксёнов Илья и я web-разработчик</div>
+         <div>Привет!</div>
+         <div className='text'>Меня зовут Аксенов Илья</div>
+         <div  className='text'>и я frontend-разработчик</div>
          <NavLink to='/profilePage' activeClassName='active-link' className='text'>Обо мне</NavLink>
       </div>
    )

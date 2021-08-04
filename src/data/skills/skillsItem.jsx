@@ -1,6 +1,6 @@
 export const programmingLanguages = [
-   { key: 1 , name: 'HTML5', description: 'Использовал везде (неожиданно!)' },
-   { key: 2 , name: 'CSS3', description: 'Использовал везде (неожиданно!)' },
+   { key: 1 , name: 'HTML5', description: 'Использовал везде' },
+   { key: 2 , name: 'CSS3', description: 'Использовал везде' },
    { key: 3 , name: 'JAVASCRIPT', description: 'На чисом JS написан POP' },
 ]
 export const libraries = [

@@ -8,13 +8,13 @@ export const Experience = [
    {
       name: 'Comindware',
       timeInterval: 'Апрель 2021 — август 2021',
-      period: '5 месяцев',
+      period: '4 месяцa',
       color: 'rgb(213, 213, 213)'
    },
    {
       name: 'Учебный проект - разработка социальной сети',
       timeInterval: 'Декабрь 2020 — апрель 2021',
-      period: '5 месяцев',
+      period: '4 месяцa',
       color: 'rgb(213, 213, 213)'
    },
    {

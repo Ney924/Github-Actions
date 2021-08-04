@@ -34,18 +34,15 @@ const ImageSlider = () => {
                   {key === current && (
                      <EuiCard
                         textAlign="left"
-                        image={
-                           <img src={slide.image} className='project__slide-img' />
-                        }
+                        image={<img src={slide.image} className='project__slide-img'/>}
                         description={slide.description}
+                        size='xl'
                      >
                         <div>
                            <div className='project-slide__name'>
                               {slide.footer}
                            </div>
-                           <a href={slide.link} target='_blank' className='project-slide__link'>
-                              Посмотреть на gitHub
-                           </a>
+                           <a href={slide.link} target='_blank' className='project-slide__link'>Посмотреть на gitHub</a>
                         </div>
                      </EuiCard>
                   )}

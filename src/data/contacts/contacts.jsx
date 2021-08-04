@@ -6,7 +6,7 @@ export const contacts = [
    },
    {
       icon: 'pencil',
-      name: 'Telegramm',
+      name: 'Telegram',
       value: '@Ney924',
    },
    {

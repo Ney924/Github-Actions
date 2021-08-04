@@ -1,11 +1,10 @@
 import React from 'react';
 import { EuiPageTemplate, EuiPageHeader, EuiButton, EuiFlexGrid } from '@elastic/eui';
-import WorkExperienceGrafic from './Grafics';
-import { Experience } from './../../../data/workExperience/workExperience';
-
-import './style.css'
-import Legend from './Legend';
 import { NavLink } from 'react-router-dom';
+import { Experience } from './../../../data/workExperience/workExperience';
+import WorkExperienceGrafic from './Grafics';
+import Legend from './Legend';
+import './style.css'
 
 const WorkExperience = ({ button = <></> }) => {
    return (
