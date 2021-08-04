@@ -1,15 +1,12 @@
 import React from 'react';
 import '@elastic/eui/dist/eui_theme_amsterdam_light.css';
-import { EuiButton, EuiPageTemplate, EuiPageHeader, EuiFlexGrid, EuiFlexItem, EuiPanel } from '@elastic/eui';
+import { EuiButton, EuiPageTemplate, EuiPageHeader, EuiFlexGrid } from '@elastic/eui';
+import { NavLink } from 'react-router-dom';
 import { contacts } from './../../../data/contacts/contacts';
+
 import Contact from './ContactItem';
 
 const Contacts = ({ button = <></> }, props) => {
-
-   const back = () => {
-      props.PageCount()
-   } 
-
    return (
       <EuiPageTemplate
          restrictWidth={false}
@@ -20,9 +17,13 @@ const Contacts = ({ button = <></> }, props) => {
             iconType="watchesApp"
             template="empty"
             pageTitle="Контакты"
-            rightSideItems={[button, <EuiButton onClick={back}>Закрыть</EuiButton>]}
+            rightSideItems={[button,
+               <NavLink to='/profilePage/profile' activeClassName='active-link' className='text'>
+                  <EuiButton>Закрыть</EuiButton>
+               </NavLink>
+            ]}
             bottomBorder
-            style={{ marginBottom: '20px'}}
+            style={{ marginBottom: '20px' }}
          />
          <EuiFlexGrid columns={2}>
             {contacts.map(el => {

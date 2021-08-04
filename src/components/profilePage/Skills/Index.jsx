@@ -1,9 +1,10 @@
 import React from 'react';
-import { EuiPageTemplate, EuiFlexGroup, EuiTitle,EuiPageHeader,EuiButton } from '@elastic/eui';
+import { EuiPageTemplate, EuiFlexGroup, EuiTitle, EuiPageHeader, EuiButton } from '@elastic/eui';
 import './style.css';
 import '@elastic/eui/dist/eui_theme_amsterdam_light.css';
 import SkillsItem from './SkillsItem';
 import { programmingLanguages, libraries, sundries } from './../../../data/skills/skillsItem'
+import { NavLink } from 'react-router-dom';
 
 const Skills = ({ button = <></> }) => {
    return (
@@ -16,9 +17,13 @@ const Skills = ({ button = <></> }) => {
             iconType="usersRolesApp"
             template="empty"
             pageTitle="Список технологий"
-            rightSideItems={[button, <EuiButton >Закрыть</EuiButton>]}
+            rightSideItems={[button,
+               <NavLink to='/profilePage/profile' activeClassName='active-link' className='text'>
+                  <EuiButton>Закрыть</EuiButton>
+               </NavLink>
+            ]}
             bottomBorder
-            style={{ marginBottom: '20px'}}
+            style={{ marginBottom: '20px' }}
          />
 
          <div className='skills-page'>

@@ -22,3 +22,18 @@
 .profile-content {
    padding-right: 30px;
 }
+
+.profile-names-data {
+   color:rgb(255, 255, 255);
+   font-size: 50px;
+   padding-bottom: 50px;
+   font-weight: 300;
+   font-family: 'Open Sans';
+}
+
+.profile-names-data-max {
+   font-size: 80px;
+   letter-spacing: 5px;
+   color:rgb(255, 255, 255);
+   font-weight: 600;
+}

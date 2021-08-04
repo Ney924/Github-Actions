@@ -5,6 +5,7 @@ import { Experience } from './../../../data/workExperience/workExperience';
 
 import './style.css'
 import Legend from './Legend';
+import { NavLink } from 'react-router-dom';
 
 const WorkExperience = ({ button = <></> }) => {
    return (
@@ -17,7 +18,11 @@ const WorkExperience = ({ button = <></> }) => {
             iconType="devToolsApp"
             template="empty"
             pageTitle="Опыт работы"
-            rightSideItems={[button, <EuiButton >Закрыть</EuiButton>]}
+            rightSideItems={[button,
+               <NavLink to='/profilePage/profile' activeClassName='active-link' className='text'>
+                  <EuiButton>Закрыть</EuiButton>
+               </NavLink>
+            ]}
             bottomBorder
             style={{ marginBottom: '20px' }}
          />

@@ -3,28 +3,28 @@ export const sections = [
       iconType: 'devToolsApp',
       title: "Опыт работы",
       description: "Программистом и не только",
-      index: 1,
+      urlName: '/profilePage/workExperience',
       key: 1,
    },
    {
       iconType: 'notebookApp',
       title: "Мои проекты",
       description: "на gitHub",
-      index: 2,
+      urlName: '/profilePage/projects',
       key: 2,
    },
    {
       iconType: 'usersRolesApp',
       title: "Мои навыки",
       description: "стек технологий",
-      index: 3,
+      urlName: '/profilePage/skills',
       key: 3,
    },
    {
       iconType: 'watchesApp',
       title: "Контакты",
       description: "со мной можно связаться как Вам удобно",
-      index: 4,
+      urlName: '/profilePage/contacts',
       key: 4,
    }
 

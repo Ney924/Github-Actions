@@ -18,7 +18,7 @@ const Sections = (props) => {
                      iconType={el.iconType}
                      title={el.title}
                      description={el.description}
-                     index={el.index}
+                     urlName={el.urlName}
                   />
                )
             })}
