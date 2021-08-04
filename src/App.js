@@ -8,7 +8,8 @@ function App() {
       <BrowserRouter>
          <Switch>
             <div className="App">
-               {/* <Redirect to={'/startingPage'} />   */}
+               <Redirect to={'/startingPage'} />  
+               {/* <Redirect to={'/profilePage/profile'} />   */}
                <Route path='/startingPage' component={StartingPage} />
                <Route path='/profilePage' component={ProfilePage} />
             </div>
