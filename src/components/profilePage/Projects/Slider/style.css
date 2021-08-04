@@ -1,0 +1,39 @@
+.image-slide {
+   display: flex;
+   width: 1000px;
+   height: 500px;
+}
+
+.project-slider {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 775px;
+}
+
+.project-slide {
+   opacity: 0;
+   transition-duration: 1s ease;
+   height: 80%;
+ }
+ 
+ .project-slide.active {
+   opacity: 1;
+   transition-duration: 1s;
+   transform: scale(1.08);
+   margin: 0;
+ }
+
+ .project__slide-img {
+   
+ }
+
+ .project-slide__name {
+    font-size: 24px;
+    padding: 15px 0 20px 0;
+    font-weight: 600;
+ }
+
+ .project-slide__link {
+    font-size: 20px;
+ }

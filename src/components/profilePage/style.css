@@ -1,0 +1,24 @@
+.profile {
+   background: url(https://img-fotki.yandex.ru/get/230858/199203331.187/0_166255_40a16f03_orig) no-repeat;
+   background-size: 100%;
+   height: 100vh - 30px;
+}
+
+.profile-data {
+   display: flex;
+   flex-direction: column;
+   padding-bottom: 70px;
+   box-sizing: border-box;
+}
+
+.profile-column {
+   
+   display: grid;
+   grid-template-columns: 3fr 1fr;
+   padding: 30px;
+   box-sizing: border-box;
+}
+
+.profile-content {
+   padding-right: 30px;
+}

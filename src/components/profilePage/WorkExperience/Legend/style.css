@@ -1,0 +1,13 @@
+.legend {
+   padding-bottom: 20px;
+}
+
+.legend-item {
+   font-size: 18px;
+}
+
+.legend-item-name {
+   font-size: 22px;
+   font-weight: 600;
+   padding-bottom: 10px;
+}

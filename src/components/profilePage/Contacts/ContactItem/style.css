@@ -1,0 +1,28 @@
+.contacts-item {
+   font-size: 30px;
+}
+
+.card {
+   display: grid;
+   grid-template-rows: 1fr 1fr;
+   grid-gap: 20px;
+   align-items: center;
+   justify-content: center;
+}
+
+.contact-value {
+   display: flex;
+   justify-content: center;
+   font-size: 24px;
+   color: rgb(5, 99, 187);
+}
+.contacts-name{
+   display: flex;
+   padding-top: 10px;
+   justify-content: center;
+}
+.contact-icon{
+   display: flex;
+   align-items: center;
+   padding-right: 8px;
+}

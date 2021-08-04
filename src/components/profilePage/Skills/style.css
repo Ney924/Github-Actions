@@ -1,0 +1,13 @@
+.skills-page {
+   display: grid;
+   grid-template-rows: auto auto auto auto;
+}
+
+.skills-group {
+   margin: 20px;
+}
+
+.item {
+   padding-right: 10px;
+   box-sizing: border-box;
+}
